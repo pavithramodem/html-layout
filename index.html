@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>microproject1</title>
+    <style>
+        .header {
+            display: flex;
+            justify-content: space-between;
+            background-color: #FFDDC1;
+            padding: 5px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .content{
+            padding:0;
+            margin:0;
+        }
+        .left-header {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            margin-left: 80px;
+        }
+       .right-header {
+           flex: 1;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           text-align: right;
+           margin-left: 50px;
+        }
+       .right-header img {
+        width: 80%;
+        height: 450px;
+        padding-right: 300px;
+        }
+        .left-footer {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 100px;
+        }
+        .left-footer ul {
+            list-style-type: none;
+        }
+        .left-footer li {
+            margin-bottom:10px;
+        }
+        .right-footer {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: right;
+            margin-left: 20px;
+        }
+        .right-footer ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        
+        .right-footer li{
+            margin-bottom:10px;
+        }
+        .list1{
+            padding-left: 200px;
+        }
+        .img1{
+            padding-left: 200px;
+        }
+        .list2{
+            padding-left:110px;
+        }
+        input[type="email"], input[type="submit"] {
+            height: 40px;
+            border: 2px solid black;
+            padding-left: 10px;
+        }
+        input[type="submit"] {
+            background-color: black;
+            color: white;
+            border: black;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left-header">
+            <h1>An inspiring design delivered to<br>your inbox every morning<br></h1>
+            <p>Our team scouts the internet for the best designs,<br>illustrations and art and delivers a truly inspiring<br>one every day to your inbox</p>
+            <br>
+            <b>Show me how it looks</b>
+            <br>
+            <br>
+            <form>
+                <input type="email" placeholder="Your e-mail address">
+                <input type="submit" value="Register Now">
+                <p style="color:white">Free - No spam - No Data sharing</p>
+            </form>
+        </div>
+        <div class="right-header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Dweep_io_1.png?20230808155917" alt="image">
+        </div>
+    </header>
+    <footer class="footer">
+        <div class="left-footer">
+            <ul>
+                <li>prompt generator</li>
+                <li>Dweep Daily</li>
+                <li>All contributors</li>
+                <li>Your data on Dweep.io</li>
+                <li>Contribute to Dweep</li>
+            </ul>
+            </div>
+            <div class="right-footer">
+                <ul>
+                    <div class ="list1"><li>Dweep.io</li></div>
+                    <div class ="list2"><li>Made with love in india</li></div>
+                    <div class ="img1"><li><img src ="https://upload.wikimedia.org/wikipedia/commons/1/1d/Lkdn_image.png?20230808160622" alt="linkedin">
+                    <img src ="https://upload.wikimedia.org/wikipedia/commons/d/de/Inst_image.png?20230808160622" alt ="instagram"></li></div>
+                    <br>
+                <li style="padding-left: 160px">hello@dweep.io</li>
+                </ul>
+                </div>
+    </footer>
+</body>
+</html> 
